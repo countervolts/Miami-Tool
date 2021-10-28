@@ -8,7 +8,7 @@
  local Credits = Instance.new("TextLabel")
  local Swagmode = Instance.new("TextButton")
  local AntiAfk = Instance.new("TextButton")
- local CMDX = Instance.new("TextButton")
+ local Chatspammer = Instance.new("TextButton")
  local InfYield = Instance.new("TextButton")
  local DhNuke = Instance.new("TextButton")
  local ChatBypasser = Instance.new("TextButton")
@@ -87,16 +87,16 @@
  AntiAfk.TextColor3 = Color3.new(0.333333, 1, 1)
  AntiAfk.TextSize = 14
 
- CMDX.Name = "CMDX"
- CMDX.Parent = MainFrame
- CMDX.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
- CMDX.BorderSizePixel = 0
- CMDX.Position = UDim2.new(0.0283687934, 0, 0.417763174, 0)
- CMDX.Size = UDim2.new(0, 229, 0, 50)
- CMDX.Font = Enum.Font.SciFi
- CMDX.Text = "CMDX"
- CMDX.TextColor3 = Color3.new(0.333333, 1, 1)
- CMDX.TextSize = 14
+ Chatspammer.Name = "Chatspammer"
+ Chatspammer.Parent = MainFrame
+ Chatspammer.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+ Chatspammer.BorderSizePixel = 0
+ Chatspammer.Position = UDim2.new(0.0283687934, 0, 0.417763174, 0)
+ Chatspammer.Size = UDim2.new(0, 229, 0, 50)
+ Chatspammer.Font = Enum.Font.SciFi
+ Chatspammer.Text = "Chatspammer"
+ Chatspammer.TextColor3 = Color3.new(0.333333, 1, 1)
+ Chatspammer.TextSize = 14
  
  InfYield.Name = "InfYield"
  InfYield.Parent = MainFrame
@@ -169,8 +169,8 @@
  loadstring(game:HttpGet(('https://pastebin.com/raw/mT5PcLB5'),true))()
  end)
  
- CMDX.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/u7cXDq3H'),true))()
+ Chatspammer.MouseButton1Down:connect(function()
+ loadstring(game:HttpGet(('https://pastebin.com/raw/wDizqhDH'),true))()
  end)
  
  InfYield.MouseButton1Down:connect(function()
